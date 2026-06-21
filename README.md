@@ -7,6 +7,7 @@
 |[PHP Code Structure](#structure)|Standard PHP Opening & Closing Tags|
 |[Variables](#variables)|Defining Variables, Variable Naming Rules(Camel Case), Dynamic Variable|
 |[Constants](#constants)|define, const, defined|
+|[Output Functions](#outputs)|echo, print, print_r, var_dump, var_export, printf, sprintf, die, exit, |
 
 <h2 id="comments"> ✔️ Comments: </h2>
 
@@ -110,6 +111,14 @@ if (defined("SITE_NAME")) {
 }
 ```
 
+<h2 id="outputs"> ✔️ Output Functions: </h2>
+
+### echo:
+echo is used to output one or more strings.
+
+```php
+echo "Hello World";  // output: Hello World
+```
 
 
 
