@@ -3,19 +3,43 @@
 
 |   Title    |   Contents  |
 |------------|-------------|
-|[comments](#comments)|Single-Line, Multi-Line|
+|[comments](#comments)|Inline, Single-Line, Multi-Line, PHPDoc|
 
 <h2 id="comments"> ✔️ Comments: </h2>
 
+### Inline Comments:
+```php
+$name = "John"; // User name
+```
+
 ### Single-Line Comments:
-```javascript
-// This comment occupies one line
-let count = 5; // Can be placed after code
+```php
+// This is a single-line comment
+echo "Hello";
 ```
 ### Multi-Line Comments:
-```javascript
+```php
 /*
-  This comment spans
-  multiple lines
+This is a multi-line comment
+It can span multiple lines
 */
+
+echo "Hello";
 ```
+
+### PHPDoc Comments:
+```php
+/**
+ * Calculates the sum of two numbers
+ *
+ * @param int $a First number
+ * @param int $b Second number
+ * @return int Sum of numbers
+ */
+function sum($a, $b) {
+    return $a + $b;
+}
+```
+
+
+
