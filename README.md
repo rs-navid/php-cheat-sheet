@@ -6,6 +6,7 @@
 |[comments](#comments)|Inline, Single-Line, Multi-Line, PHPDoc|
 |[PHP Code Structure](#structure)|Standard PHP Opening & Closing Tags|
 |[Variables](#variables)|Defining Variables, Variable Naming Rules(Camel Case), Dynamic Variable|
+|[Constants](#constants)|define, const, defined|
 
 <h2 id="comments"> ✔️ Comments: </h2>
 
@@ -80,6 +81,38 @@ $name = "user";
 $$name = "John";
 echo $user;   // output: John
 ```
+
+<h2 id="constants"> ✔️ Constants: </h2>
+Constant names usually use uppercase letters.
+
+### define:
+```php
+<?php
+define("SITE_NAME", "My Website");
+echo SITE_NAME;
+?>
+```
+
+### const:
+```php
+<?php
+const CONSTANT_NAME = value;
+const PI = 3.14;
+echo PI;
+?>
+```
+
+### defined:
+```php
+// Check if Constant Exists
+if (defined("SITE_NAME")) {
+    echo "Constant exists";
+}
+```
+
+
+
+
 
 
 
