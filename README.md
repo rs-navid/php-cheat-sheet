@@ -4,6 +4,7 @@
 |   Title    |   Contents  |
 |------------|-------------|
 |[comments](#comments)|Inline, Single-Line, Multi-Line, PHPDoc|
+|[PHP Code Structure](#structure)|Standard PHP Opening & Closing Tags|
 
 <h2 id="comments"> ✔️ Comments: </h2>
 
@@ -40,6 +41,18 @@ function sum($a, $b) {
     return $a + $b;
 }
 ```
+
+<h2 id="structure"> ✔️ PHP Code Structure: </h2>
+
+### Standard PHP Opening & Closing Tags:
+```php
+<?php
+
+echo "Hello";
+
+?>
+```
+
 
 
 
