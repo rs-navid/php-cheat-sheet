@@ -120,6 +120,32 @@ echo is used to output one or more strings.
 echo "Hello World";  // output: Hello World
 ```
 
+### print:
+print outputs a string and always returns 1.
+
+```php
+print "Hello World";  // output: Hello World
+```
+
+### print_r:
+print_r() displays human-readable information about arrays and objects.
+
+```php
+$user = [
+    "name" => "John",
+    "age" => 25
+];
+
+print_r($user);
+
+// output:
+Array
+(
+    [name] => John
+    [age] => 25
+)
+```
+
 
 
 
