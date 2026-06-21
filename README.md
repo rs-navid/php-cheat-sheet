@@ -146,6 +146,65 @@ Array
 )
 ```
 
+### var_dump:
+var_dump() displays detailed information about a variable, including type and value.
+
+```php
+$name = "John";
+var_dump($name);  // output: string(4) "John"
+
+$data = [1, 2, 3];
+var_dump($data);
+
+// output:
+array(3) {
+  [0]=>
+  int(1)
+  [1]=>
+  int(2)
+  [2]=>
+  int(3)
+}
+```
+
+### var_export:
+var_export() outputs a valid PHP representation of a variable.
+
+```php
+$name = "John";
+var_export($name);  // output: 'John'
+```
+
+### printf:
+printf() formats and outputs a string.
+
+```php
+$name = "John";
+$age = 25;
+printf("Name: %s, Age: %d", $name, $age);
+// output: Name: John, Age: 25
+```
+
+### sprintf:
+sprintf() works like printf() but returns the formatted string instead of printing it.
+
+```php
+$message = sprintf("Hello %s", "John");
+echo $message;
+```
+
+### die & exit:
+Stops script execution and prints a message.
+
+```php
+die("Error occurred");
+exit("Stop script");
+```
+
+
+
+
+
 
 
 
